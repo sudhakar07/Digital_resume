@@ -78,7 +78,7 @@ st.subheader("Experience & Qulifications")
 st.write("---")
 st.write(
     """
-- ✔️ Overall 12+ years of IT experience. A Lead Consultant with over 6+ years of experience in Machine learning (Workfusion), Robotics process automation (RPA), UiPath and different RPA tools.
+- ✔️ Overall 13+ years of IT experience. A Lead Consultant with over 7+ years of experience in Machine learning, AI, Data scientist, RPA, UiPath and different RPA tools.
 - ✔️ 5+ years of experience developing applications using Java/J2EE technologies in Insurance and Healthcare domains.
 - ✔️ Extensive experience in Cognitive Business Process Development with the focus in Banking, Insurance, and Health care.
 - ✔️ End-to-End ML & RPA life cycle design and development expertise using WorkFusion Machine Learning ODF,  AutoML -SDK, OCR, SPA, RPA, and Uipath.
