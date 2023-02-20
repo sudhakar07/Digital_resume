@@ -7,7 +7,7 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "Sudhakar_Lead_Consultant_Resume1.pdf"
+resume_file = current_dir / "assets" / "Sudhakar_Lead_Consultant_Resume.pdf"
 profile_pic = current_dir / "assets" / "1615946600759.jpg"
 profile_vid = current_dir / "assets" / "Self_intro.mp4"
 
