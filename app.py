@@ -21,7 +21,7 @@ WorkFusion Solution Designer, Business process design, develops, and implements 
 EMAIL = "sudhakargk74@gmail.com"
 mobile = "+91- 9894045556"
 SOCIAL_MEDIA = {
-   
+    "Medium": "https://medium.com/@sudhakargk74",
     "LinkedIn": "https://www.linkedin.com/in/sudhakar-govindaraj-74107669/",
    # "GitHub": "https://github.com",
    # "Twitter": "https://twitter.com",
