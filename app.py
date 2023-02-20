@@ -63,7 +63,7 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    agree = st.checkbox('Play for Self Intro')
+    agree = st.checkbox('▶️ Play for Self Intro')
     if agree:
         video_file = open(profile_vid, 'rb')
         video_bytes = video_file.read()
