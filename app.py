@@ -53,6 +53,7 @@ with col1:
     st.write(":iphone:", mobile)
 
 
+
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
@@ -62,13 +63,13 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    agree = st.checkbox('play for self intro')
+    agree = st.checkbox('Play for Self Intro')
     if agree:
-	video_file = open(profile_vid, 'rb')
-	video_bytes = video_file.read()
-	st.video(video_bytes)
+        video_file = open(profile_vid, 'rb')
+        video_bytes = video_file.read()
+        st.video(video_bytes)
     
-   
+    
 
 
 # --- SOCIAL LINKS ---
