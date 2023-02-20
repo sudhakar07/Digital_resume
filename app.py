@@ -9,6 +9,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "Sudhakar_Lead_Consultant_Resume.pdf"
 profile_pic = current_dir / "assets" / "1615946600759.jpg"
+profile_vid = current_dir / "assets" / "Self_intro.mp4"
 
 
 # --- GENERAL SETTINGS ---
@@ -61,6 +62,11 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
+    agree = st.checkbox('play for self intro')
+    if agree:
+	video_file = open(profile_vid, 'rb')
+	video_bytes = video_file.read()
+	st.video(video_bytes)
     
    
 
