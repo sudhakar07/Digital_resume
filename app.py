@@ -17,7 +17,7 @@ PAGE_TITLE = "Digital CV | Sudhakar Govindaraj"
 PAGE_ICON = ":wave:"
 NAME = "Sudhakar Govindaraj"
 DESCRIPTION = """
-WorkFusion Solution Designer, Business process design, develops, and implements automation solutions using WorkFusion's intelligent automation platform, leveraging RPA, AI, and machine learning technologies to enhance business processes and increase efficiency."""
+WorkFusion Solution Designer, Business process design, develops, and implements automation solutions using WorkFusion's intelligent automation platform, leveraging RPA, Generative-AI, and machine learning technologies to enhance business processes and increase efficiency."""
 EMAIL = "sudhakargk74@gmail.com"
 mobile = "+91- 9894045556"
 SOCIAL_MEDIA = {
@@ -27,6 +27,7 @@ SOCIAL_MEDIA = {
    # "Twitter": "https://twitter.com",
 }
 PROJECTS = {
+	"🏆 Leveraging GenAI & Extensibility Document intelligence :": "2nd Place (Infosys)",
     "🏆 Application FAQs intelligence": "-1st  Place",
     "🏆 Chatbots in customer service ": "-2nd Place",
     "🏆 Passport PII extraction IDP": "http://extract-mrz-app.herokuapp.com",
@@ -85,10 +86,10 @@ st.subheader("Experience & Qulifications")
 st.write("---")
 st.write(
     """
-- ✔️ Overall 13+ years of IT experience. A Lead Consultant with over 7+ years of experience in Machine learning, AI, Data scientist, RPA, UiPath and different RPA tools.
-- ✔️ 5+ years of experience developing applications using Java/J2EE technologies in Insurance and Healthcare domains.
+- ✔️ Overall 14+ years of IT experience. A Lead Consultant with over 8+ years of experience in Machine learning, AI, Data scientist, RPA, UiPath and different RPA tools.
+- ✔️ 6+ years of experience developing applications using Java/J2EE technologies in Insurance and Healthcare domains.
 - ✔️ Extensive experience in Cognitive Business Process Development with the focus in Banking, Insurance, and Health care.
-- ✔️ End-to-End ML & RPA life cycle design and development expertise using WorkFusion Machine Learning ODF,  AutoML -SDK, OCR, SPA, RPA, and Uipath.
+- ✔️ End-to-End ML & RPA life cycle design and development expertise using WorkFusion Machine Learning , ODF 1&2 ,  AutoML -SDK, OCR, SPA, RPA, and Uipath.
 - ✔️ Implemented processes that monitor emails, download pdf documents, perform OCR, and tag data by Machine Learning models and upload them to LLEs, this reduced manual document handling errors and handling time by 90%.
 """
 )
@@ -100,9 +101,11 @@ st.subheader("Skills")
 st.write("---")
 st.info(
     """
-✔️WorkFusion					\t\t\t\t\t:	ML, ODF, Control Tower, Scheduler, SPA Studio, RPA, Workspace, Mesos, Marathon, Nexus, Amazon S3, ML-SDK\n
+✔️WorkFusion					\t\t\t\t\t:	Auto-ML, IACD Studio, ODF 2, RPA, Cognitive Model, Workspace, AI
+Digital Workers, Mesos, Marathon, Nexus, Amazon S3 Minio \n
 ✔️Languages					\t\t\t\t\t:	Java , Python                                                                                           \n
-✔️Machine Learning & AI		\t\t\t\t\t:	SciKit Learn, NLP, Streamlit                                                                            \n
+✔️Machine Learning & Gen-AI		\t\t\t\t\t:	SciKit Learn, NLP, Streamlit, ,OpenAI, Langchain , Multi-Agent, Ollama,
+LlamaIndex, Prompt engineering                                                                            \n
 ✔️Data Visualization 			\t\t\t\t\t:	Matplotlib and Seaborn                                                                                  \n
 ✔️Data Mining					\t\t\t\t\t:	Pandas, Numpy                                                                                           \n
 ✔️BI							\t\t\t\t\t:	Tableau, Kibana ELK, Power BI                                                                                    \n
@@ -129,9 +132,12 @@ st.write('\n')
 st.subheader("Work History")
 st.write("---")
 
+st.write("🚧", "**Senior Teach Lead  | Mphasis Limited, Chennai**")
+st.write("11/2024 - Present")
+
 # --- JOB 1
 st.write("🚧", "**Lead Consultant | Infosys Limited, Chennai**")
-st.write("11/2018 - Present")
+st.write("11/2018 - 10/2024")
 #st.write(
 #    """
 #- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
